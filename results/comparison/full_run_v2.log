@@ -1,0 +1,206 @@
+/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/scipy/signal/_fir_filter_design.py:1256: RuntimeWarning: invalid value encountered in sqrt
+  S = 4. / (np.sqrt(1+dp+ds) + np.sqrt(1-dp+ds)) ** 2
+Using 80 workers
+
+tau=0.35: 135 tasks, 9 SNR points
+  [0.35] 10/135 done (1s, 14.9/s)
+  [0.35] 20/135 done (1s, 27.1/s)
+  [0.35] 30/135 done (1s, 38.6/s)
+  [0.35] 40/135 done (1s, 48.4/s)
+  [0.35] 50/135 done (1s, 53.6/s)
+  [0.35] 60/135 done (1s, 56.7/s)
+  [0.35] 70/135 done (1s, 55.1/s)
+  [0.35] 80/135 done (2s, 47.9/s)
+  [0.35] 90/135 done (2s, 45.4/s)
+  [0.35] 100/135 done (2s, 41.7/s)
+  [0.35] 110/135 done (3s, 40.5/s)
+  [0.35] 120/135 done (12s, 9.9/s)
+  [0.35] 130/135 done (538s, 0.2/s)
+  [0.35] 135/135 done (563s, 0.2/s)
+Saved results/comparison/uncoded_tau0350/uncoded_ber.csv
+Saved results/comparison/turbo_tau0350/turbo_ber.csv
+
+tau=0.5: 135 tasks, 9 SNR points
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.2.6 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "/home/nrd-lab/BaiduSyncdisk/blog/Ungerboeck-M-BCJR_Reproduce/scripts/plot_comparison.py", line 15, in <module>
+    import matplotlib.pyplot as plt
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/__init__.py", line 131, in <module>
+    from . import _api, _version, cbook, _docstring, rcsetup
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/rcsetup.py", line 27, in <module>
+    from matplotlib.colors import Colormap, is_color_like
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/colors.py", line 56, in <module>
+    from matplotlib import _api, _cm, cbook, scale
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/scale.py", line 22, in <module>
+    from matplotlib.ticker import (
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/ticker.py", line 138, in <module>
+    from matplotlib import transforms as mtransforms
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/transforms.py", line 49, in <module>
+    from matplotlib._path import (
+AttributeError: _ARRAY_API not found
+Traceback (most recent call last):
+  File "/home/nrd-lab/BaiduSyncdisk/blog/Ungerboeck-M-BCJR_Reproduce/scripts/plot_comparison.py", line 15, in <module>
+    import matplotlib.pyplot as plt
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/__init__.py", line 131, in <module>
+    from . import _api, _version, cbook, _docstring, rcsetup
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/rcsetup.py", line 27, in <module>
+    from matplotlib.colors import Colormap, is_color_like
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/colors.py", line 56, in <module>
+    from matplotlib import _api, _cm, cbook, scale
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/scale.py", line 22, in <module>
+    from matplotlib.ticker import (
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/ticker.py", line 138, in <module>
+    from matplotlib import transforms as mtransforms
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/transforms.py", line 49, in <module>
+    from matplotlib._path import (
+ImportError: numpy.core.multiarray failed to import
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.2.6 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "/home/nrd-lab/BaiduSyncdisk/blog/Ungerboeck-M-BCJR_Reproduce/scripts/plot_comparison.py", line 15, in <module>
+    import matplotlib.pyplot as plt
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/__init__.py", line 131, in <module>
+    from . import _api, _version, cbook, _docstring, rcsetup
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/rcsetup.py", line 27, in <module>
+    from matplotlib.colors import Colormap, is_color_like
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/colors.py", line 56, in <module>
+    from matplotlib import _api, _cm, cbook, scale
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/scale.py", line 22, in <module>
+    from matplotlib.ticker import (
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/ticker.py", line 138, in <module>
+    from matplotlib import transforms as mtransforms
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/transforms.py", line 49, in <module>
+    from matplotlib._path import (
+AttributeError: _ARRAY_API not found
+Traceback (most recent call last):
+  File "/home/nrd-lab/BaiduSyncdisk/blog/Ungerboeck-M-BCJR_Reproduce/scripts/plot_comparison.py", line 15, in <module>
+    import matplotlib.pyplot as plt
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/__init__.py", line 131, in <module>
+    from . import _api, _version, cbook, _docstring, rcsetup
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/rcsetup.py", line 27, in <module>
+    from matplotlib.colors import Colormap, is_color_like
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/colors.py", line 56, in <module>
+    from matplotlib import _api, _cm, cbook, scale
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/scale.py", line 22, in <module>
+    from matplotlib.ticker import (
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/ticker.py", line 138, in <module>
+    from matplotlib import transforms as mtransforms
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/transforms.py", line 49, in <module>
+    from matplotlib._path import (
+ImportError: numpy.core.multiarray failed to import
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.2.6 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "/home/nrd-lab/BaiduSyncdisk/blog/Ungerboeck-M-BCJR_Reproduce/scripts/plot_comparison.py", line 15, in <module>
+    import matplotlib.pyplot as plt
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/__init__.py", line 131, in <module>
+    from . import _api, _version, cbook, _docstring, rcsetup
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/rcsetup.py", line 27, in <module>
+    from matplotlib.colors import Colormap, is_color_like
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/colors.py", line 56, in <module>
+    from matplotlib import _api, _cm, cbook, scale
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/scale.py", line 22, in <module>
+    from matplotlib.ticker import (
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/ticker.py", line 138, in <module>
+    from matplotlib import transforms as mtransforms
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/transforms.py", line 49, in <module>
+    from matplotlib._path import (
+AttributeError: _ARRAY_API not found
+Traceback (most recent call last):
+  File "/home/nrd-lab/BaiduSyncdisk/blog/Ungerboeck-M-BCJR_Reproduce/scripts/plot_comparison.py", line 15, in <module>
+    import matplotlib.pyplot as plt
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/__init__.py", line 131, in <module>
+    from . import _api, _version, cbook, _docstring, rcsetup
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/rcsetup.py", line 27, in <module>
+    from matplotlib.colors import Colormap, is_color_like
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/colors.py", line 56, in <module>
+    from matplotlib import _api, _cm, cbook, scale
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/scale.py", line 22, in <module>
+    from matplotlib.ticker import (
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/ticker.py", line 138, in <module>
+    from matplotlib import transforms as mtransforms
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/transforms.py", line 49, in <module>
+    from matplotlib._path import (
+ImportError: numpy.core.multiarray failed to import
+
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.2.6 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "/home/nrd-lab/BaiduSyncdisk/blog/Ungerboeck-M-BCJR_Reproduce/scripts/plot_comparison.py", line 15, in <module>
+    import matplotlib.pyplot as plt
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/__init__.py", line 131, in <module>
+    from . import _api, _version, cbook, _docstring, rcsetup
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/rcsetup.py", line 27, in <module>
+    from matplotlib.colors import Colormap, is_color_like
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/colors.py", line 56, in <module>
+    from matplotlib import _api, _cm, cbook, scale
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/scale.py", line 22, in <module>
+    from matplotlib.ticker import (
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/ticker.py", line 138, in <module>
+    from matplotlib import transforms as mtransforms
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/transforms.py", line 49, in <module>
+    from matplotlib._path import (
+AttributeError: _ARRAY_API not found
+Traceback (most recent call last):
+  File "/home/nrd-lab/BaiduSyncdisk/blog/Ungerboeck-M-BCJR_Reproduce/scripts/plot_comparison.py", line 15, in <module>
+    import matplotlib.pyplot as plt
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/__init__.py", line 131, in <module>
+    from . import _api, _version, cbook, _docstring, rcsetup
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/rcsetup.py", line 27, in <module>
+    from matplotlib.colors import Colormap, is_color_like
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/colors.py", line 56, in <module>
+    from matplotlib import _api, _cm, cbook, scale
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/scale.py", line 22, in <module>
+    from matplotlib.ticker import (
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/ticker.py", line 138, in <module>
+    from matplotlib import transforms as mtransforms
+  File "/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/matplotlib/transforms.py", line 49, in <module>
+    from matplotlib._path import (
+ImportError: numpy.core.multiarray failed to import
+  [0.5] 10/135 done (1s, 16.9/s)
+  [0.5] 20/135 done (1s, 26.1/s)
+  [0.5] 30/135 done (1s, 38.2/s)
+  [0.5] 40/135 done (1s, 48.2/s)
+  [0.5] 50/135 done (1s, 55.1/s)
+  [0.5] 60/135 done (1s, 59.1/s)
+  [0.5] 70/135 done (1s, 49.9/s)
+  [0.5] 80/135 done (2s, 37.9/s)
+  [0.5] 90/135 done (2s, 38.7/s)
+  [0.5] 100/135 done (3s, 30.0/s)
+  [0.5] 110/135 done (13s, 8.2/s)
+  [0.5] 120/135 done (70s, 1.7/s)
+  [0.5] 130/135 done (72s, 1.8/s)
+  [0.5] 135/135 done (121s, 1.1/s)
+Saved results/comparison/uncoded_tau0500/uncoded_ber.csv
+Saved results/comparison/turbo_tau0500/turbo_ber.csv
+
+Total time: 122s
+Done.

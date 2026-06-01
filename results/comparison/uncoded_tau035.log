@@ -1,0 +1,2 @@
+/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/scipy/signal/_fir_filter_design.py:1256: RuntimeWarning: invalid value encountered in sqrt
+  S = 4. / (np.sqrt(1+dp+ds) + np.sqrt(1-dp+ds)) ** 2

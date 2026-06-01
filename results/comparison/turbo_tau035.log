@@ -1,0 +1,87 @@
+/home/nrd-lab/anaconda3/envs/comm-sim/lib/python3.10/site-packages/scipy/signal/_fir_filter_design.py:1256: RuntimeWarning: invalid value encountered in sqrt
+  S = 4. / (np.sqrt(1+dp+ds) + np.sqrt(1-dp+ds)) ** 2
+/home/nrd-lab/BaiduSyncdisk/blog/Ungerboeck-M-BCJR_Reproduce/ftn/baselines/channel_shortening.py:120: RuntimeWarning: invalid value encountered in divide
+  denom = G_w + n0
+Turbo equalization comparison: tau=0.35, isi_len=10, K=6000
+g taps: g[-10]=-0.0263, g[-9]=-0.0176, g[-8]=0.0321, g[-7]=0.0744, g[-6]=0.0317, g[-5]=-0.0985, g[-4]=-0.1827, g[-3]=-0.0432, g[-2]=0.3530, g[-1]=0.8020, g[0]=1.0000, g[1]=0.8020, g[2]=0.3530, g[3]=-0.0432, g[4]=-0.1827, g[5]=-0.0985, g[6]=0.0317, g[7]=0.0744, g[8]=0.0321, g[9]=-0.0176, g[10]=-0.0263
+
+=== No-ISI baseline ===
+  [no-ISI] Eb/N0= 2.50 dB  BER=0.00793333  (238/30000)  0.2s
+  [no-ISI] Eb/N0= 3.00 dB  BER=0.0034  (204/60000)  0.1s
+  [no-ISI] Eb/N0= 3.50 dB  BER=0.00168333  (202/120000)  0.3s
+  [no-ISI] Eb/N0= 4.00 dB  BER=0.000673333  (202/300000)  0.6s
+  [no-ISI] Eb/N0= 4.50 dB  BER=0.00024  (144/600000)  1.2s
+  [no-ISI] Eb/N0= 5.00 dB  BER=8.33333e-05  (50/600000)  1.3s
+  [no-ISI] Eb/N0= 5.50 dB  BER=2.33333e-05  (14/600000)  1.2s
+  [no-ISI] Eb/N0= 6.00 dB  BER=3.33333e-06  (2/600000)  1.3s
+  [no-ISI] Eb/N0= 6.50 dB  BER=1.66667e-06  (1/600000)  1.3s
+
+=== Ungerboeck M-BCJR M=4 ===
+  [ung_M4] Eb/N0= 2.50 dB  BER=0.325833  (5865/18000)  2.5s
+  [ung_M4] Eb/N0= 3.00 dB  BER=0.302056  (5437/18000)  2.5s
+  [ung_M4] Eb/N0= 3.50 dB  BER=0.283556  (5104/18000)  2.4s
+  [ung_M4] Eb/N0= 4.00 dB  BER=0.257056  (4627/18000)  2.4s
+  [ung_M4] Eb/N0= 4.50 dB  BER=0.254833  (4587/18000)  2.4s
+  [ung_M4] Eb/N0= 5.00 dB  BER=0.193778  (3488/18000)  2.4s
+  [ung_M4] Eb/N0= 5.50 dB  BER=0.221667  (3990/18000)  2.4s
+  [ung_M4] Eb/N0= 6.00 dB  BER=0.175056  (3151/18000)  2.3s
+  [ung_M4] Eb/N0= 6.50 dB  BER=0.036  (648/18000)  2.3s
+
+=== Ungerboeck M-BCJR M=8 ===
+  [ung_M8] Eb/N0= 2.50 dB  BER=0.308611  (5555/18000)  4.4s
+  [ung_M8] Eb/N0= 3.00 dB  BER=0.261722  (4711/18000)  4.3s
+  [ung_M8] Eb/N0= 3.50 dB  BER=0.251944  (4535/18000)  4.3s
+  [ung_M8] Eb/N0= 4.00 dB  BER=0.243  (4374/18000)  4.3s
+  [ung_M8] Eb/N0= 4.50 dB  BER=0.220278  (3965/18000)  4.2s
+  [ung_M8] Eb/N0= 5.00 dB  BER=0.184722  (3325/18000)  4.2s
+  [ung_M8] Eb/N0= 5.50 dB  BER=0.138  (2484/18000)  4.1s
+  [ung_M8] Eb/N0= 6.00 dB  BER=0.0521667  (939/18000)  4.1s
+  [ung_M8] Eb/N0= 6.50 dB  BER=0.0143333  (258/18000)  4.1s
+
+=== Paper [14] Backup M-BCJR M=4 ===
+  [prlja_M4] Eb/N0= 2.50 dB  BER=0.496556  (8938/18000)  0.6s
+  [prlja_M4] Eb/N0= 3.00 dB  BER=0.501333  (9024/18000)  0.6s
+  [prlja_M4] Eb/N0= 3.50 dB  BER=0.501611  (9029/18000)  0.6s
+  [prlja_M4] Eb/N0= 4.00 dB  BER=0.500444  (9008/18000)  0.6s
+  [prlja_M4] Eb/N0= 4.50 dB  BER=0.501389  (9025/18000)  0.6s
+  [prlja_M4] Eb/N0= 5.00 dB  BER=0.499  (8982/18000)  0.6s
+  [prlja_M4] Eb/N0= 5.50 dB  BER=0.4965  (8937/18000)  0.6s
+  [prlja_M4] Eb/N0= 6.00 dB  BER=0.500222  (9004/18000)  0.6s
+  [prlja_M4] Eb/N0= 6.50 dB  BER=0.504778  (9086/18000)  0.6s
+
+=== Paper [14] Backup M-BCJR M=8 ===
+  [prlja_M8] Eb/N0= 2.50 dB  BER=0.497667  (8958/18000)  1.0s
+  [prlja_M8] Eb/N0= 3.00 dB  BER=0.5025  (9045/18000)  1.0s
+  [prlja_M8] Eb/N0= 3.50 dB  BER=0.5025  (9045/18000)  1.0s
+  [prlja_M8] Eb/N0= 4.00 dB  BER=0.491  (8838/18000)  1.0s
+  [prlja_M8] Eb/N0= 4.50 dB  BER=0.501056  (9019/18000)  1.0s
+  [prlja_M8] Eb/N0= 5.00 dB  BER=0.506  (9108/18000)  1.0s
+  [prlja_M8] Eb/N0= 5.50 dB  BER=0.498056  (8965/18000)  1.0s
+  [prlja_M8] Eb/N0= 6.00 dB  BER=0.495611  (8921/18000)  1.0s
+  [prlja_M8] Eb/N0= 6.50 dB  BER=0.495722  (8923/18000)  1.0s
+
+=== Paper [26] Shortened BCJR nu=2 ===
+  [cs_nu2] Eb/N0= 2.50 dB  BER=0.501222  (9022/18000)  0.2s
+  [cs_nu2] Eb/N0= 3.00 dB  BER=0.496556  (8938/18000)  0.2s
+  [cs_nu2] Eb/N0= 3.50 dB  BER=0.498444  (8972/18000)  0.2s
+  [cs_nu2] Eb/N0= 4.00 dB  BER=0.503556  (9064/18000)  0.2s
+  [cs_nu2] Eb/N0= 4.50 dB  BER=0.500389  (9007/18000)  0.2s
+  [cs_nu2] Eb/N0= 5.00 dB  BER=0.501722  (9031/18000)  0.2s
+  [cs_nu2] Eb/N0= 5.50 dB  BER=0.497389  (8953/18000)  0.2s
+  [cs_nu2] Eb/N0= 6.00 dB  BER=0.499778  (8996/18000)  0.2s
+  [cs_nu2] Eb/N0= 6.50 dB  BER=0.505333  (9096/18000)  0.2s
+
+=== Paper [26] Shortened BCJR nu=3 ===
+  [cs_nu3] Eb/N0= 2.50 dB  BER=0.496  (8928/18000)  0.3s
+  [cs_nu3] Eb/N0= 3.00 dB  BER=0.492  (8856/18000)  0.3s
+  [cs_nu3] Eb/N0= 3.50 dB  BER=0.495167  (8913/18000)  0.3s
+  [cs_nu3] Eb/N0= 4.00 dB  BER=0.497  (8946/18000)  0.3s
+  [cs_nu3] Eb/N0= 4.50 dB  BER=0.502556  (9046/18000)  0.3s
+  [cs_nu3] Eb/N0= 5.00 dB  BER=0.492556  (8866/18000)  0.3s
+  [cs_nu3] Eb/N0= 5.50 dB  BER=0.501944  (9035/18000)  0.3s
+  [cs_nu3] Eb/N0= 6.00 dB  BER=0.499833  (8997/18000)  0.3s
+  [cs_nu3] Eb/N0= 6.50 dB  BER=0.492556  (8866/18000)  0.3s
+
+Saved CSV to results/comparison/turbo_tau0350/turbo_ber.csv
+Results saved to results/comparison/turbo_tau0350
+Done.

@@ -1,0 +1,486 @@
+{
+  "no_isi": [
+    {
+      "eb_n0_db": -0.5,
+      "label": "no_isi",
+      "bit_errors": 2119,
+      "total_bits": 21842,
+      "ber": 0.09701492537313433
+    },
+    {
+      "eb_n0_db": -0.25,
+      "label": "no_isi",
+      "bit_errors": 1833,
+      "total_bits": 21842,
+      "ber": 0.08392088636571743
+    },
+    {
+      "eb_n0_db": 0.0,
+      "label": "no_isi",
+      "bit_errors": 1314,
+      "total_bits": 21842,
+      "ber": 0.0601593260690413
+    },
+    {
+      "eb_n0_db": 0.25,
+      "label": "no_isi",
+      "bit_errors": 721,
+      "total_bits": 21842,
+      "ber": 0.033009797637578976
+    },
+    {
+      "eb_n0_db": 0.5,
+      "label": "no_isi",
+      "bit_errors": 249,
+      "total_bits": 21842,
+      "ber": 0.011400054940023807
+    },
+    {
+      "eb_n0_db": 0.75,
+      "label": "no_isi",
+      "bit_errors": 302,
+      "total_bits": 1004732,
+      "ber": 0.0003005776664822062
+    },
+    {
+      "eb_n0_db": 1.0,
+      "label": "no_isi",
+      "bit_errors": 0,
+      "total_bits": 1092100,
+      "ber": 0.0
+    },
+    {
+      "eb_n0_db": 1.25,
+      "label": "no_isi",
+      "bit_errors": 4,
+      "total_bits": 1092100,
+      "ber": 3.66266825382291e-06
+    },
+    {
+      "eb_n0_db": 1.5,
+      "label": "no_isi",
+      "bit_errors": 0,
+      "total_bits": 1092100,
+      "ber": 0.0
+    },
+    {
+      "eb_n0_db": 1.75,
+      "label": "no_isi",
+      "bit_errors": 0,
+      "total_bits": 1092100,
+      "ber": 0.0
+    },
+    {
+      "eb_n0_db": 2.0,
+      "label": "no_isi",
+      "bit_errors": 3,
+      "total_bits": 1092100,
+      "ber": 2.7470011903671824e-06
+    },
+    {
+      "eb_n0_db": 2.25,
+      "label": "no_isi",
+      "bit_errors": 0,
+      "total_bits": 1092100,
+      "ber": 0.0
+    },
+    {
+      "eb_n0_db": 2.5,
+      "label": "no_isi",
+      "bit_errors": 0,
+      "total_bits": 1092100,
+      "ber": 0.0
+    },
+    {
+      "eb_n0_db": 2.75,
+      "label": "no_isi",
+      "bit_errors": 0,
+      "total_bits": 1092100,
+      "ber": 0.0
+    },
+    {
+      "eb_n0_db": 3.0,
+      "label": "no_isi",
+      "bit_errors": 0,
+      "total_bits": 1092100,
+      "ber": 0.0
+    },
+    {
+      "eb_n0_db": 3.25,
+      "label": "no_isi",
+      "bit_errors": 0,
+      "total_bits": 1092100,
+      "ber": 0.0
+    },
+    {
+      "eb_n0_db": 3.5,
+      "label": "no_isi",
+      "bit_errors": 0,
+      "total_bits": 1092100,
+      "ber": 0.0
+    }
+  ],
+  "tau=1.0000": [
+    {
+      "eb_n0_db": -0.5,
+      "label": "tau=1.0000",
+      "bit_errors": 9234,
+      "total_bits": 87368,
+      "ber": 0.10569087079937735
+    },
+    {
+      "eb_n0_db": -0.25,
+      "label": "tau=1.0000",
+      "bit_errors": 7693,
+      "total_bits": 87368,
+      "ber": 0.0880528339895614
+    },
+    {
+      "eb_n0_db": 0.0,
+      "label": "tau=1.0000",
+      "bit_errors": 5132,
+      "total_bits": 87368,
+      "ber": 0.05874004212068492
+    },
+    {
+      "eb_n0_db": 0.25,
+      "label": "tau=1.0000",
+      "bit_errors": 3001,
+      "total_bits": 87368,
+      "ber": 0.03434896071788298
+    },
+    {
+      "eb_n0_db": 0.5,
+      "label": "tau=1.0000",
+      "bit_errors": 1059,
+      "total_bits": 87368,
+      "ber": 0.012121142752495193
+    },
+    {
+      "eb_n0_db": 0.75,
+      "label": "tau=1.0000",
+      "bit_errors": 214,
+      "total_bits": 633418,
+      "ber": 0.00033784957168883737
+    },
+    {
+      "eb_n0_db": 1.0,
+      "label": "tau=1.0000",
+      "bit_errors": 20,
+      "total_bits": 1092100,
+      "ber": 1.831334126911455e-05
+    },
+    {
+      "eb_n0_db": 1.25,
+      "label": "tau=1.0000",
+      "bit_errors": 0,
+      "total_bits": 1092100,
+      "ber": 0.0
+    },
+    {
+      "eb_n0_db": 1.5,
+      "label": "tau=1.0000",
+      "bit_errors": 0,
+      "total_bits": 1092100,
+      "ber": 0.0
+    },
+    {
+      "eb_n0_db": 1.75,
+      "label": "tau=1.0000",
+      "bit_errors": 0,
+      "total_bits": 1092100,
+      "ber": 0.0
+    },
+    {
+      "eb_n0_db": 2.0,
+      "label": "tau=1.0000",
+      "bit_errors": 0,
+      "total_bits": 1092100,
+      "ber": 0.0
+    },
+    {
+      "eb_n0_db": 2.25,
+      "label": "tau=1.0000",
+      "bit_errors": 0,
+      "total_bits": 1092100,
+      "ber": 0.0
+    },
+    {
+      "eb_n0_db": 2.5,
+      "label": "tau=1.0000",
+      "bit_errors": 0,
+      "total_bits": 1092100,
+      "ber": 0.0
+    },
+    {
+      "eb_n0_db": 2.75,
+      "label": "tau=1.0000",
+      "bit_errors": 0,
+      "total_bits": 1092100,
+      "ber": 0.0
+    },
+    {
+      "eb_n0_db": 3.0,
+      "label": "tau=1.0000",
+      "bit_errors": 0,
+      "total_bits": 1092100,
+      "ber": 0.0
+    },
+    {
+      "eb_n0_db": 3.25,
+      "label": "tau=1.0000",
+      "bit_errors": 0,
+      "total_bits": 1092100,
+      "ber": 0.0
+    },
+    {
+      "eb_n0_db": 3.5,
+      "label": "tau=1.0000",
+      "bit_errors": 0,
+      "total_bits": 1092100,
+      "ber": 0.0
+    }
+  ],
+  "tau=0.6667": [
+    {
+      "eb_n0_db": -0.5,
+      "label": "tau=0.6667",
+      "bit_errors": 14996,
+      "total_bits": 87368,
+      "ber": 0.17164179104477612
+    },
+    {
+      "eb_n0_db": -0.25,
+      "label": "tau=0.6667",
+      "bit_errors": 13395,
+      "total_bits": 87368,
+      "ber": 0.15331700393736838
+    },
+    {
+      "eb_n0_db": 0.0,
+      "label": "tau=0.6667",
+      "bit_errors": 12314,
+      "total_bits": 87368,
+      "ber": 0.14094405274242286
+    },
+    {
+      "eb_n0_db": 0.25,
+      "label": "tau=0.6667",
+      "bit_errors": 10735,
+      "total_bits": 87368,
+      "ber": 0.12287107407746543
+    },
+    {
+      "eb_n0_db": 0.5,
+      "label": "tau=0.6667",
+      "bit_errors": 9535,
+      "total_bits": 87368,
+      "ber": 0.10913606812562952
+    },
+    {
+      "eb_n0_db": 0.75,
+      "label": "tau=0.6667",
+      "bit_errors": 7602,
+      "total_bits": 87368,
+      "ber": 0.08701126270488051
+    },
+    {
+      "eb_n0_db": 1.0,
+      "label": "tau=0.6667",
+      "bit_errors": 5980,
+      "total_bits": 87368,
+      "ber": 0.06844611299331563
+    },
+    {
+      "eb_n0_db": 1.25,
+      "label": "tau=0.6667",
+      "bit_errors": 4511,
+      "total_bits": 87368,
+      "ber": 0.051632176540609837
+    },
+    {
+      "eb_n0_db": 1.5,
+      "label": "tau=0.6667",
+      "bit_errors": 2966,
+      "total_bits": 87368,
+      "ber": 0.0339483563776211
+    },
+    {
+      "eb_n0_db": 1.75,
+      "label": "tau=0.6667",
+      "bit_errors": 2265,
+      "total_bits": 87368,
+      "ber": 0.025924823734090285
+    },
+    {
+      "eb_n0_db": 2.0,
+      "label": "tau=0.6667",
+      "bit_errors": 1317,
+      "total_bits": 87368,
+      "ber": 0.015074169032139914
+    },
+    {
+      "eb_n0_db": 2.25,
+      "label": "tau=0.6667",
+      "bit_errors": 972,
+      "total_bits": 87368,
+      "ber": 0.01112535482098709
+    },
+    {
+      "eb_n0_db": 2.5,
+      "label": "tau=0.6667",
+      "bit_errors": 469,
+      "total_bits": 87368,
+      "ber": 0.005368098159509203
+    },
+    {
+      "eb_n0_db": 2.75,
+      "label": "tau=0.6667",
+      "bit_errors": 314,
+      "total_bits": 87368,
+      "ber": 0.0035939932240637304
+    },
+    {
+      "eb_n0_db": 3.0,
+      "label": "tau=0.6667",
+      "bit_errors": 213,
+      "total_bits": 174736,
+      "ber": 0.0012189817782254373
+    },
+    {
+      "eb_n0_db": 3.25,
+      "label": "tau=0.6667",
+      "bit_errors": 245,
+      "total_bits": 109210,
+      "ber": 0.0022433843054665325
+    },
+    {
+      "eb_n0_db": 3.5,
+      "label": "tau=0.6667",
+      "bit_errors": 230,
+      "total_bits": 742628,
+      "ber": 0.0003097109185217902
+    }
+  ],
+  "tau=0.5000": [
+    {
+      "eb_n0_db": -0.5,
+      "label": "tau=0.5000",
+      "bit_errors": 19248,
+      "total_bits": 87368,
+      "ber": 0.22030949546744805
+    },
+    {
+      "eb_n0_db": -0.25,
+      "label": "tau=0.5000",
+      "bit_errors": 18288,
+      "total_bits": 87368,
+      "ber": 0.2093214907059793
+    },
+    {
+      "eb_n0_db": 0.0,
+      "label": "tau=0.5000",
+      "bit_errors": 17350,
+      "total_bits": 87368,
+      "ber": 0.1985852943869609
+    },
+    {
+      "eb_n0_db": 0.25,
+      "label": "tau=0.5000",
+      "bit_errors": 16644,
+      "total_bits": 87368,
+      "ber": 0.19050453255196412
+    },
+    {
+      "eb_n0_db": 0.5,
+      "label": "tau=0.5000",
+      "bit_errors": 15879,
+      "total_bits": 87368,
+      "ber": 0.18174846625766872
+    },
+    {
+      "eb_n0_db": 0.75,
+      "label": "tau=0.5000",
+      "bit_errors": 14532,
+      "total_bits": 87368,
+      "ber": 0.1663309220767329
+    },
+    {
+      "eb_n0_db": 1.0,
+      "label": "tau=0.5000",
+      "bit_errors": 13217,
+      "total_bits": 87368,
+      "ber": 0.15127964472117938
+    },
+    {
+      "eb_n0_db": 1.25,
+      "label": "tau=0.5000",
+      "bit_errors": 11776,
+      "total_bits": 87368,
+      "ber": 0.1347861917406831
+    },
+    {
+      "eb_n0_db": 1.5,
+      "label": "tau=0.5000",
+      "bit_errors": 10411,
+      "total_bits": 87368,
+      "ber": 0.11916262247046974
+    },
+    {
+      "eb_n0_db": 1.75,
+      "label": "tau=0.5000",
+      "bit_errors": 9395,
+      "total_bits": 87368,
+      "ber": 0.107533650764582
+    },
+    {
+      "eb_n0_db": 2.0,
+      "label": "tau=0.5000",
+      "bit_errors": 7986,
+      "total_bits": 87368,
+      "ber": 0.091406464609468
+    },
+    {
+      "eb_n0_db": 2.25,
+      "label": "tau=0.5000",
+      "bit_errors": 7461,
+      "total_bits": 87368,
+      "ber": 0.08539739950553979
+    },
+    {
+      "eb_n0_db": 2.5,
+      "label": "tau=0.5000",
+      "bit_errors": 5754,
+      "total_bits": 87368,
+      "ber": 0.0658593535390532
+    },
+    {
+      "eb_n0_db": 2.75,
+      "label": "tau=0.5000",
+      "bit_errors": 4425,
+      "total_bits": 87368,
+      "ber": 0.05064783444739493
+    },
+    {
+      "eb_n0_db": 3.0,
+      "label": "tau=0.5000",
+      "bit_errors": 3929,
+      "total_bits": 87368,
+      "ber": 0.04497069865396942
+    },
+    {
+      "eb_n0_db": 3.25,
+      "label": "tau=0.5000",
+      "bit_errors": 3135,
+      "total_bits": 87368,
+      "ber": 0.03588270304917132
+    },
+    {
+      "eb_n0_db": 3.5,
+      "label": "tau=0.5000",
+      "bit_errors": 2585,
+      "total_bits": 87368,
+      "ber": 0.029587491987913196
+    }
+  ]
+}
